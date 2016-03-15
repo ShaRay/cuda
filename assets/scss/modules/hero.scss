@@ -1,0 +1,14 @@
+.hero {
+  background-color: $vivid-violet;
+  height: 33.75rem; // 540/16
+  width: 100%;
+
+  .content {
+    bottom: 2.125rem; // 34/16
+    color: $white;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}
