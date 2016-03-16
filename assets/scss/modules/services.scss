@@ -1,0 +1,36 @@
+.services {
+  background-color: $puerto-rico;
+  height: 46.875rem; // 750/16
+  margin: 0;
+}
+
+.services-header {
+  display: block;
+  color: $white;
+  position: relative;
+  text-align: center;
+  top: 7.5625rem; // 121/16
+}
+
+.services-caption {
+  display: block;
+  color: $white;
+  margin: 3.125rem 0 0 24.6875rem; // 50/16 // 395/16
+  position: relative;
+  text-align: center;
+  width: 40.625rem; // 650/16
+}
+
+.line {
+  background-color: $gossamer;
+  border: none;
+  height: 3px;
+  width: 90px;
+}
+
+.types-services {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+}

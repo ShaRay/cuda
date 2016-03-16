@@ -1,14 +1,38 @@
 .hero {
   background-color: $vivid-violet;
-  height: 33.75rem; // 540/16
+  height: 39.75rem; // 636/16
   width: 100%;
 
   .content {
-    bottom: 2.125rem; // 34/16
+    top: 13.125rem; // 34/16
     color: $white;
     left: 0;
     position: absolute;
     text-align: center;
     width: 100%;
   }
+}
+
+.orange-btn {
+  text-align: center;
+  position: relative;
+  top: 65%;
+  left: 0;
+  cursor: pointer;
+}
+
+.work-btn {
+  border: 1px solid $flamenico;
+  border-bottom: 4px solid $zest;
+  background-color: $flamenico;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+  height: 4.375rem; // 70/16
+  position: relative;
+  text-align: center;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 1.125rem; //18/16
+  width: 18.375rem; //294/16
 }
