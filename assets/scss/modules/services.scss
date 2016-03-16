@@ -15,7 +15,7 @@
 .services-caption {
   display: block;
   color: $white;
-  margin: 3.125rem 0 0 24.6875rem; // 50/16 // 395/16
+  margin: 0 auto;
   position: relative;
   text-align: center;
   width: 40.625rem; // 650/16
@@ -25,6 +25,7 @@
   background-color: $gossamer;
   border: none;
   height: 3px;
+  margin-bottom: 25px;
   width: 90px;
 }
 
@@ -32,6 +33,7 @@
   display: inline-block;
   position: relative;
   margin-left: 106px;
+  padding-bottom: 50px;
   top: 235px;
   width: 85%;
 }
