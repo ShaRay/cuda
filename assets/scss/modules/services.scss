@@ -30,7 +30,26 @@
 
 .types-services {
   display: inline-block;
-  text-decoration: none;
-  list-style: none;
   position: relative;
+  margin-left: 106px;
+  top: 235px;
+  width: 85%;
+}
+
+.branding,
+.design,
+.development,
+.rocket {
+  color: $white;
+}
+
+.branding-caption,
+.design-caption,
+.development-caption,
+.rocket-caption {
+  display: block;
+  color: $white;
+  margin: 0 auto;
+  position: relative;
+  width: 180px;
 }
