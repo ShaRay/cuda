@@ -1,11 +1,59 @@
 .teams {
   background-color: $aqua-squeeze;
-  height: 916px;
+  height: 57.25rem; // 916/16
   margin: 0;
 }
 
 .teams-header {
   color: $cello;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 7.5rem; // 120/16
+}
+
+.teams-caption {
+  color: $cello;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+
+.teams-line {
+  background-color: $botticelli;
+  border: none;
+  height: 0.25rem; // 4/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
+}
+
+.teams-group {
+  display: inline-block;
+  position: relative;
+  margin-left: 6.625rem; // 106/16
+  padding-bottom: 3.125rem; // 50/16
+  top: 1.6875rem; // 235/16
+  width: 85%;
+}
+
+.anne,
+.kate,
+.olivia,
+.ashley {
+  color: $cello;
+  text-align: center;
+}
+
+.anne-caption,
+.kate-caption,
+.olivia-caption,
+.ashley-caption {
+  color: $picton-blue;
+  margin-bottom: 30px;
+}
+
+.anne-caption2,
+.kate-caption2,
+.olivia-caption2,
+.ashley-caption2 {
+  color: $cadet;
+  margin: 0 auto;
+  width: 200px;
 }
