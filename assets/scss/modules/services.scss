@@ -24,17 +24,17 @@
 .line {
   background-color: $gossamer;
   border: none;
-  height: 3px;
-  margin-bottom: 25px;
-  width: 90px;
+  height: 0.1875rem; // 3/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
 }
 
 .types-services {
   display: inline-block;
   position: relative;
-  margin-left: 106px;
-  padding-bottom: 50px;
-  top: 235px;
+  margin-left: 6.625rem; // 106/16
+  padding-bottom: 3.125rem; // 50/16
+  top: 14.6875rem; // 235/16
   width: 85%;
 }
 
