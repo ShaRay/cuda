@@ -57,3 +57,20 @@
   margin: 0 auto;
   width: 200px;
 }
+
+.social-menu {
+  margin: 0;
+  list-style: none;
+  padding: 0 0 15px;
+}
+
+.social-menu-item {
+  display: inline-block;
+}
+
+.bird,
+.face,
+.mail {
+  margin-top: 30px;
+  margin-right: 10px;
+  }
