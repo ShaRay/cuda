@@ -24,6 +24,26 @@
 }
 
 .portfolio-menu {
-  display: inline-block;
   margin: 0 auto;
+  padding-top: 45px;
+  text-align: center;
+  width: 25%;
+}
+
+.menu-link {
+  background-color: $marzipan;
+  border: 1px;
+  border-radius: 4px;
+  color: $montana;
+  margin-left: 10px;
+  padding: 5px;
+
+    a::selection {
+    background-color: $white;
+  }
+}
+
+.menu-link a {
+  color: $montana;
+  text-decoration: none;
 }
