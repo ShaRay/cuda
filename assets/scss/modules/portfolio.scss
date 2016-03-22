@@ -30,20 +30,21 @@
   width: 25%;
 }
 
-.menu-link {
+.portfolio-button {
   background-color: $marzipan;
   border: 1px;
   border-radius: 4px;
   color: $montana;
   margin-left: 10px;
-  padding: 5px;
-
-    a::selection {
-    background-color: $white;
-  }
+  padding: 10px;
+  width: 80px;
 }
 
-.menu-link a {
+.portfolio-button:hover {
+  background: $white;
+}
+
+.portfolio-button a {
   color: $montana;
   text-decoration: none;
 }
