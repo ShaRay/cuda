@@ -1,7 +1,7 @@
 .portfolio {
   background-color: $cherokee;
   color: $montana;
-  height: 1424px;
+  height: 1485px;
   margin: 0;
 }
 
@@ -63,4 +63,19 @@
 .media-player-caption,
 .blog-caption {
   margin-top: 30px;
+}
+
+.load-more {
+  background-color: $carribean-green;
+  border: 1px;
+  border-radius: 4px;
+  color: $white;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  border-bottom: 5px solid $persian-green;
+  padding: 25px;
+  position: relative;
+  top: 63px;
+  left: 558px;
+  width: 290px;
 }
