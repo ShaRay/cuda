@@ -46,7 +46,7 @@
 .olivia-caption,
 .ashley-caption {
   color: $picton-blue;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; // 30/16
 }
 
 .anne-caption2,
@@ -55,13 +55,13 @@
 .ashley-caption2 {
   color: $cadet;
   margin: 0 auto;
-  width: 200px;
+  width: 12.5rem; // 200/16
 }
 
 .social-menu {
   margin: 0;
   list-style: none;
-  padding: 0 0 15px;
+  padding: 0 0 0.9375rem; // 15/16
 }
 
 .social-menu-item {
@@ -71,6 +71,6 @@
 .bird,
 .face,
 .mail {
-  margin-top: 30px;
-  margin-right: 10px;
+  margin-top: 1.875rem; // 30/16
+  margin-right: 0.625rem; // 10/16
   }

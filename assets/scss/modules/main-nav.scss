@@ -1,10 +1,10 @@
 .main-nav {
   float: right;
-  margin-top: 55px;
+  margin-top: 3.4375rem; // 55/16
 
   li {
     display: inline-block;
-    margin-right: 35px;
+    margin-right: 2.1875rem; // 35/16
     text-decoration: none;
 
     + li {
@@ -14,7 +14,7 @@
 }
 
 .last-item {
-  margin-right: 50px;
+  margin-right: 3.125rem; //50/16
 }
 
 
@@ -42,7 +42,7 @@
       border: 1px solid $eminence;
       border-radius: 3px;
       background-color: $eminence;
-      padding: 5px 20px;
+      padding: 0.3125rem 1.25rem; // 5/16 20/16
     }
   }
 }
