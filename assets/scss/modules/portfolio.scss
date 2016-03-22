@@ -48,3 +48,19 @@
   color: $montana;
   text-decoration: none;
 }
+
+.image-wrapper {
+  position: relative;
+  margin-top: 65px;
+}
+
+.isometric-caption,
+.time-zone-caption {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.media-player-caption,
+.blog-caption {
+  margin-top: 30px;
+}
