@@ -21,7 +21,7 @@
   border-radius: 0.3125rem; // 5/16
   display: block;
   padding: 2rem;
-  position: 
+  position: relative;
   box-sizing: border-box;
   width: 100%;
 }
@@ -30,7 +30,19 @@
   padding: 0 1rem 0 1rem;
   margin: 0 auto;
   max-width: 44.25rem; // 708/16
+
+  [placeholder] {
+    color: $white;
+  }
 }
+
+.name,
+.email {
+  display: inline-block;
+  height: 55px;
+  width: 420px;
+}
+
 
 .message {
   height: 10rem; // 160/16
@@ -46,4 +58,31 @@
   padding: 1.5625rem; // 25/16
   position: relative;
   width: 18.125rem; // 290/16
+}
+
+[type="text"] {
+  color: $white;
+}
+
+[type="email"] {
+  color: $white;
+}
+
+[name="message"] {
+  color: $white;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: $white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: $white;
+  opacity: 1;
 }
