@@ -30,7 +30,7 @@
 
   <section class="hero clearfix">
     <h2 class="t-bold block mega content">Hi there! We are the new kids on the block
-          <span class="t-bold block mega">and we build awesome websites and mobile apps.</span></h2>
+          <span class="t-bold block mega mobile">and we build awesome websites and mobile apps.</span></h2>
     <div class="orange-btn">
       <a href="#">
         <button class="work-btn caps">WORK WITH US!</button>
@@ -46,22 +46,22 @@
         <h2 class="services-caption t3 regular">We are working with both individuals and businesses from all over the globe <span>to create awesome websites and applications.</span></h2>
       </div>
       <div class="row clearfix center types-services">
-        <div class="col col-3">
+        <div class="col col-3 mobile">
           <img src="dist/images/flag-icon.png" alt="Flag" />
           <h2 class="branding caps t2">branding</h2>
           <h4 class="branding-caption t4">Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh.</h4>
         </div>
-        <div class="col col-3">
+        <div class="col col-3 mobile">
           <img src="dist/images/pencil-icon.png" alt="Pencil" />
           <h2 class="design caps t2">design</h2>
           <h4 class="design-caption t4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h4>
         </div>
-        <div class="col col-3">
+        <div class="col col-3 mobile">
           <img src="dist/images/gears-icon.png" alt="Gears" />
           <h2 class="development caps t2">development</h2>
           <h4 class="development-caption t4">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</h4>
         </div>
-        <div class="col col-3">
+        <div class="col col-3 mobile">
           <img src="dist/images/rocket-icon.png" alt="Rocket" />
           <h2 class="rocket caps t2">rocket science</h2>
           <h4 class="rocket-caption t4">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</h4>
@@ -264,16 +264,13 @@
         <h3 class="contact-caption regular">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</h3>
       </div>
       <div>
-        <form class="contact-form">
-          <div>
-            <input class="form-control mb3 inline-block name" type="text" placeholder="Your Name">
+        <form class="contact-form required">
+          <div class="inline-block">
+            <input class="form-control mb3 t4 name" type="text" placeholder="Your Name *" required>
+            <input class="form-control mb3 t4 email" type="email" placeholder="Your Email *" required>
           </div>
           <div>
-            <input class="form-control mb3 email" type="email" placeholder="Your Email">
-          </div>
-
-      <div>
-        <textarea class="form-control mb3 message" name="message" placeholder="Message"></textarea>
+        <textarea class="form-control mb3 t4 message" name="message" placeholder="Message *" required></textarea>
       </div>
       <div class="center">
         <input class="button t3 regular" type="submit" value="Send">

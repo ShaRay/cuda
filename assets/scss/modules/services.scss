@@ -55,3 +55,20 @@
   position: relative;
   width: 11.25rem; //180/16
 }
+
+@media only screen and (max-width: 767px) {
+  .services {
+    width: 100%;
+  }
+
+  .types-services {
+    display: block;
+    margin: 0;
+    position: relative;
+  }
+
+  .mobile {
+    clear: both;
+    display: block;
+  }
+}

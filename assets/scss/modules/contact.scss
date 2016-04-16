@@ -31,18 +31,17 @@
   margin: 0 auto;
   max-width: 44.25rem; // 708/16
 
-  [placeholder] {
-    color: $white;
+  .required:after {
+    content: "*";
+    color: $red;
   }
 }
 
 .name,
 .email {
-  display: inline-block;
   height: 55px;
   width: 420px;
 }
-
 
 .message {
   height: 10rem; // 160/16

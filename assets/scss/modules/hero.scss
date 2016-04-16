@@ -39,7 +39,9 @@
 
 @media only screen and (min-width: 320px) and (max-width: 970px) {
   .content,
-  .span {
-    font-size: 2rem;
+    .mobile {
+    font-size: 1.6rem;
+    padding: 10px;
+    width: 100%;
   }
 }
