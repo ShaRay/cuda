@@ -1,0 +1,44 @@
+.testimonials {
+  background-color: $cranberry;
+  height: 55.875rem; // 894/16
+}
+
+.testimonial-header {
+  color: $white;
+  margin-top: 7.5rem; // 120/16
+  text-align: center;
+}
+
+.testimonial-line {
+  background-color: $dogwood-rose;
+  border: none;
+  height: 0.25rem; // 4/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
+}
+
+.mug-size {
+  height: 6rem; //  96/16
+  width: 6rem;
+}
+
+.mugshot-wrapper {
+  color: $white;
+  margin: auto;
+  margin-top: 4.375rem; // 70/16
+}
+
+.mugshot-caption {
+  width: 20.625rem; // 330/16
+}
+
+.mugshot-title {
+  display: block;
+  color: $golden-glow;
+  margin: 0;
+}
+
+.mugshot-name {
+  display: block;
+  margin: 35 0 0 0;
+}

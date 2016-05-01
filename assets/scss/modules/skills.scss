@@ -1,0 +1,48 @@
+.skills {
+  background-color: $white;
+  height: 46.875rem; // 750/16
+  margin: 0;
+}
+
+.skills-header {
+  color: $cello;
+  text-align: center;
+  margin-top: 7.185rem; // 115/16
+}
+
+.skills-caption {
+  color: $cello;
+  margin: 0 auto;
+  width: 42%;
+}
+
+.skills-line {
+  background-color: $botticelli;
+  border: none;
+  height: 0.25rem; // 4/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
+}
+
+.skills {
+display: block;
+margin: 0 auto;
+position: relative;
+text-align: center;
+width: 85%;
+}
+
+.skills-menu {
+ margin: 0 auto;
+}
+
+.skills-menu-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 7.1875rem; // 115/16
+}
+
+.percents {
+  position: relative;
+  top: 8.125rem; // 130/16
+}

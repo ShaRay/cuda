@@ -1,0 +1,87 @@
+.contact {
+  background-color: $sapphire;
+  height: 51.25rem; // 820/16
+}
+
+.contact-header {
+  color: $white;
+}
+
+.contact-line {
+  background-color: $astronaut;
+  border: none;
+  height: 0.25rem; // 4/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
+}
+
+.form-control {
+  background: $astronaut;
+  border: 0.0625rem solid $astronaut; // 1/16
+  border-radius: 0.3125rem; // 5/16
+  display: block;
+  padding: 2rem;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contact-form {
+  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+  max-width: 44.25rem; // 708/16
+
+  .required:after {
+    content: "*";
+    color: $red;
+  }
+}
+
+.name,
+.email {
+  height: 55px;
+  width: 420px;
+}
+
+.message {
+  height: 10rem; // 160/16
+}
+
+.button {
+  background-color: $deep-sky-blue;
+  border: 1px;
+  border-radius: 0.25rem; // 4/16
+  color: $white;
+  margin: 0 auto;
+  border-bottom: 0.3125rem solid $pacific-blue; // 5/16
+  padding: 1.5625rem; // 25/16
+  position: relative;
+  width: 18.125rem; // 290/16
+}
+
+[type="text"] {
+  color: $white;
+}
+
+[type="email"] {
+  color: $white;
+}
+
+[name="message"] {
+  color: $white;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: $white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: $white;
+  opacity: 1;
+}

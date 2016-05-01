@@ -1,0 +1,77 @@
+.services {
+  background-color: $puerto-rico;
+  height: 46.875rem; // 750/16
+  margin: 0;
+}
+
+.services-header {
+  display: block;
+  color: $white;
+  position: relative;
+  text-align: center;
+  top: 7.5625rem; // 121/16
+}
+
+.services-caption {
+  display: block;
+  color: $white;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 40.625rem; // 650/16
+}
+
+.line {
+  background-color: $gossamer;
+  border: none;
+  height: 0.1875rem; // 3/16
+  margin-bottom: 1.5625rem; // 25/16
+  width: 5.625rem; // 90/16
+}
+
+.types-services {
+  display: inline-block;
+  position: relative;
+  margin-left: 6.625rem; // 106/16
+  padding-bottom: 3.125rem; // 50/16
+  top: 14.6875rem; // 235/16
+  width: 85%;
+}
+
+.branding,
+.design,
+.development,
+.rocket {
+  color: $white;
+}
+
+.branding-caption,
+.design-caption,
+.development-caption,
+.rocket-caption {
+  display: block;
+  color: $white;
+  margin: 0 auto;
+  position: relative;
+  width: 11.25rem; //180/16
+}
+
+@media all and (min-width: 320px) and (max-width: 780px)  {
+
+  .types-services {
+    display: block;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+  }
+
+  .mobile {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .services-caption {
+    margin: 0 auto;
+    width: auto;
+  }
+}

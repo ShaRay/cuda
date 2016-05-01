@@ -1,0 +1,27 @@
+.main-footer {
+  background-color: $chambray;
+  height: 7rem; // 112/16
+}
+
+.footer-line {
+  background-color: $waikawa-gray;
+  color: $governer-bay;
+  border: 0;
+  border-top: 2px dashed;
+  margin: 0;
+}
+
+.footer-social-link {
+  color: $white;
+  display: inline-block;
+  margin-left: 3.125rem; // 50/16
+  margin-top: 2.5rem; // 40/16
+}
+
+a .footer-social-link:hover {
+  color: $picton-blue;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 970px) {
+  
+}
