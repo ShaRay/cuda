@@ -1,7 +1,6 @@
 .main-nav {
-  display: inline-block;
-  float: right;
-  margin-top: 3.4375rem; // 55/16
+  margin-top: 3.4375rem; 
+  position: relative;
 
   .list-item {
     color: $white;
@@ -30,29 +29,3 @@
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 780px)  {
-
-  .main-nav {
-    a:hover,
-    a.current {
-      background-color: $vivid-violet;
-      border: none;
-      display: block;
-      font-size: 1.125em;
-      float: none;
-      text-align: center;
-      margin: 0;
-      //padding: .4em;
-      border-bottom: 1px solid $eminence;
-     }
-
-    .list-item {
-      transition: none;
-      background-color: $vivid-violet;
-    }
-
-    li {
-      margin-right: 0;
-    }
-  }
-}

@@ -85,3 +85,9 @@
   color: $white;
   opacity: 1;
 }
+
+@media (min-width: 52em) {
+  .form-control {
+    padding: 0;
+  }
+}

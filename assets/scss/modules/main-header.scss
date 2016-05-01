@@ -7,15 +7,12 @@
 }
 
 .logo-image {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   margin: 3.125rem 0 0 13.1875rem; // 50/16 211/16
 }
 
-@media only screen and (min-width: 320px) and (max-width: 970px) {
+@media (min-width: 52em) {
   .logo-image {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
+    text-align: center;
   }
 }
